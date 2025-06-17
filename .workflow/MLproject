@@ -1,0 +1,7 @@
+name: car-price-prediction
+
+entry_points:
+  main:
+    parameters:
+      data_path: {type: str, default: "preprocessing/car-prediction_preprocessing/car_data_clean.csv"}
+    command: "python preprocessing/automate_Nurnia-Hamid.py --data_path {data_path}"
